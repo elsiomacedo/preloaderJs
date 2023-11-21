@@ -18,8 +18,8 @@ const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
 svgImage.src = 'https://elsiomacedo.github.io/preloaderJs/yy3.gif';
 svgImage.style.cssText = `
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 80px;
+    max-height: 80px;
     display: none;
     position: absolute;
     top: 50%;

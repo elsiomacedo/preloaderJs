@@ -18,13 +18,14 @@ const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
 svgImage.src = 'https://elsiomacedo.github.io/preloaderJs/imagem.svg';
 svgImage.style.cssText = `
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 40px;
+    max-height: 40px;
     display: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 `;
 svgImage.style.display = 'none';
 
